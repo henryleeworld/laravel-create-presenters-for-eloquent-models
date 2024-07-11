@@ -1,4 +1,4 @@
-# Laravel 8 為 Eloquent 模型建立表示器
+# Laravel 10 為 Eloquent 模型建立表示器
 
 引入 datacreativa 的 laravel-presentable 套件來擴增為 Eloquent 模型建立表示器，通過可以在模型的表示器類中定義的方法以不同的方式呈現資訊。
 

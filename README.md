@@ -1,4 +1,4 @@
-# Laravel 10 為 Eloquent 模型建立表示器
+# Laravel 11 為 Eloquent 模型建立表示器
 
 引入 datacreativa 的 laravel-presentable 套件來擴增為 Eloquent 模型建立表示器，通過可以在模型的表示器類中定義的方法以不同的方式呈現資訊。
 
@@ -21,10 +21,10 @@ $ php artisan key:generate
 $ php artisan migrate --seed
 ```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
-- 你可以經由 `/users/` 來進行使用者名稱變更。
+- 你可以經由 `/users/` 來進行使用者姓名變更。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/CAbvpyy.png)
-> 進行使用者名稱變更
+![](https://i.imgur.com/TQS6RNm.png)
+> 進行使用者姓名變更

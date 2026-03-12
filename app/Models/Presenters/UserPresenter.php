@@ -7,11 +7,11 @@ use TheHiveTeam\Presentable\Presenter;
 class UserPresenter extends Presenter
 {
     /**
-    * This is a example.
-    *
-    * @return string
-    */
-    public function name()
+     * This is a example.
+     *
+     * @return string
+     */
+    public function name(): string
     {
         return ucwords($this->model->name);
     }

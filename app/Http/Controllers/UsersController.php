@@ -6,11 +6,14 @@ use App\Models\User;
 
 class UsersController extends Controller
 {
-    public function show() 
+    /**
+     * Display the resource.
+     */
+    public function show()
     {
         $user = User::findOrFail(1);
-        $user = $user->setAttribute('name', 'Black Widow');
+        $user = $user->setAttribute('name', __('Frieren'));
         $user->save();
-        echo $user->present()->name . PHP_EOL;
+        echo __('User name: ') . $user->present()->name . PHP_EOL;
     }
 }
